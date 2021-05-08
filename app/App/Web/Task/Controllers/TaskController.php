@@ -12,18 +12,17 @@ use Domain\Task\TataTransferObject\TaskData;
 class TaskController extends Controller
 {
 
+
     public function index()
     {
         $tasks=app(Task::class)->get();
-
-        return view('welcome');
+        dd($tasks);
+        //return view('welcome',compact('tasks'));
     }
 
     public function store(TaskRequest $request, CreateTaskAction $action)
     {
         $data=TaskData::fromRequest($request);
-
-
 
         $action($data);
 

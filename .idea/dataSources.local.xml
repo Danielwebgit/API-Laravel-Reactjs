@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="@localhost" uuid="dc402939-cbff-4dcc-ae3c-ae2e24399e60">
-      <database-info product="MySQL" version="8.0.23-0ubuntu0.20.04.1" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)" dbms="MYSQL" exact-version="8.0.23" exact-driver-version="8.0">
-        <extra-name-characters>#@</extra-name-characters>
-        <identifier-quote-string>`</identifier-quote-string>
+    <data-source name="postgres@localhost" uuid="ccf141cf-5359-4f4a-8319-30e0aee7962c">
+      <database-info product="PostgreSQL" version="12.6 (Ubuntu 12.6-1.pgdg20.04+1)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2" dbms="POSTGRES" exact-version="12.6" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
-      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
-      <introspection-schemas>*:dddlaravel</introspection-schemas>
+      <user-name>nielferas</user-name>
+      <introspection-schemas>*:*|@:|Restalrante:|clinica:*|codigpub:</introspection-schemas>
     </data-source>
   </component>
 </project>
