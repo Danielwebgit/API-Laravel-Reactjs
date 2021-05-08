@@ -2,64 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4597fd99-357c-4f3c-ae8b-07c43180f52d" name="Default Changelist" comment="alterado a primeira versão">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/Restalrante.ESf9iA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/Restalrante.ESf9iA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/Restalrante.ESf9iA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/Restalrante.ESf9iA/schema/pg_temp_1.zkWuFg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/Restalrante.ESf9iA/schema/pg_toast.33HYYw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/Restalrante.ESf9iA/schema/pg_toast_temp_1.5ixBaA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/Restalrante.ESf9iA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/clinica.eYhPMw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/clinica.eYhPMw/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/clinica.eYhPMw/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/clinica.eYhPMw/schema/pg_temp_1.zkWuFg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/clinica.eYhPMw/schema/pg_toast.33HYYw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/clinica.eYhPMw/schema/pg_toast_temp_1.5ixBaA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/clinica.eYhPMw/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/codigpub.p9KEzA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/codigpub.p9KEzA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/codigpub.p9KEzA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/codigpub.p9KEzA/schema/pg_temp_1.zkWuFg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/codigpub.p9KEzA/schema/pg_toast.33HYYw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/codigpub.p9KEzA/schema/pg_toast_temp_1.5ixBaA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/codigpub.p9KEzA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/postgres.edMnLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_temp_1.zkWuFg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_toast.33HYYw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_toast_temp_1.5ixBaA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App/Api/Controllers/AuthControllers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App/Api/Controllers/Requests/UserRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App/Api/Controllers/ServicesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App/Api/Controllers/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/App/Core/Http/Middleware/apiProtectedRoute.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/User/Actions/CreateUserAction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Domain/User/DataTransferObject/UserData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jwt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_01_170622_create_permissions_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc402939-cbff-4dcc-ae3c-ae2e24399e60.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ddd-laravel7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ddd-laravel7.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App/Api/Controllers/AuthController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App/Core/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/App/Core/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App/Web/Task/Controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/App/Web/Task/Controllers/TaskController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Domain/Task/Actions/CreateTaskAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Domain/Task/Actions/CreateTaskAction.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Domain/User/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Domain/User/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -438,7 +381,7 @@
       <workItem from="1620437336678" duration="2600000" />
       <workItem from="1620443208006" duration="841000" />
       <workItem from="1620475234792" duration="5323000" />
-      <workItem from="1620482196193" duration="1094000" />
+      <workItem from="1620482196193" duration="2445000" />
     </task>
     <task id="LOCAL-00001" summary="alterado a primeira versão">
       <created>1619630542904</created>
@@ -479,7 +422,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83208000" />
+    <option name="totallyTimeSpent" value="84559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
