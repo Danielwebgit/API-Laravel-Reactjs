@@ -9,6 +9,8 @@ class User extends Authenticatable implements JWTSubject
 {
     use Notifiable;
 
+    const PAGAR_ME_KY="ak_test_bvNaSQPcmZ1Z7N75AscO3d3T9JzpCj";
+
     /**
      * The attributes that are mass assignable.
      *

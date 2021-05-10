@@ -6,30 +6,52 @@ namespace App\Api\Controllers;
 use App\Core\Http\Controllers\Controller;
 
 use Domain\User\Models\Services;
+use Domain\User\Models\User;
 use Illuminate\Http\Request;
-
 
 class ServicesController extends Controller
 {
     public function index()
     {
-        $tasks=app(User::class)->get();
+        $client = User::find(1);
+
+        $pagarme = new \PagarMe\Client(User::PAGAR_ME_KY);
+
+        $newCard = true;
+
+        if ($newCard){
+
+            $getCreditCard =$pagarme->cards()->create([
+                'holder_name' => 'Daniel Rocha da Conceição',
+                'number' => '5234285383001058',
+                'expiration_date' => '0520',
+                'cvv' => '850',
+            ]);
+
+        }
+
+        if(!$getCreditCard->valid){
+            echo "Cartão inválido!";
+        }
+        else {
+
+        }
+
+
+        //return view('site.home');
+
+    }
+
+    public function test()
+    {
+        app(User::class)->get();
         return response()->json(User::all());
+
     }
 
-    public function create()
+    public function store( Request $request )
     {
-        User::create([
-            'name' => 'luana',
-            'email' => 'luana@gmail.com',
-            'password' => '013913d9bda9bdbc3ea53381f9d3ab0d'
 
-        ]);
-    }
-
-    public function store(Request $request)
-    {
-        dd($request);
     }
 
 }

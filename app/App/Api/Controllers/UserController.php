@@ -13,7 +13,7 @@ class UserController extends Controller
 {
     public function index()
     {
-        $tasks=app(User::class)->get();
+        $tasks = app(User::class)->get();
         return response()->json(User::all());
     }
 
