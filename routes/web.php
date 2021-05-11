@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::namespace('\App\Core\Http\Controllers')->group(function (){
 
-   Route::get('/admin','AuthController@dashboard');
+    Route::get('/admin','AuthController@dashboard');
     Route::get('/admin/login','AuthController@showLoginForm')->name('admin.login');
-
+    Route::post('admin/login/do','AuthController@login')->name('admin.login.do');
 });
 
 Route::namespace('\App\Api\Customers')->group( function (){
