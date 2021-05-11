@@ -13,10 +13,19 @@ class CreateCreditCardsTable extends Migration
      */
     public function up()
     {
-        Schema::create('credit_cards', function (Blueprint $table) {
-            $table->id();
+        Schema::create('cards', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('hash');
+            $table->string('brand');
+            $table->string('last_digits');
+            $table->unsignedBigInteger('user_id');
             $table->timestamps();
         });
+
+        Schema::table('cards',function (Blueprint $table){
+           $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+        });
+
     }
 
     /**
@@ -26,6 +35,6 @@ class CreateCreditCardsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('credit_cards');
+        Schema::dropIfExists('cards');
     }
 }

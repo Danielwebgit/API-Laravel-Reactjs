@@ -13,11 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::namespace('\App\Api\Controllers')->group( function (){
+Route::namespace('\App\Core\Http\Controllers')->group(function (){
 
-    Route::post('/', 'ServiceController@test');
+   Route::get('/admin','AuthController@dashboard');
+    Route::get('/admin/login','AuthController@showLoginForm')->name('admin.login');
 
 });
 
+Route::namespace('\App\Api\Customers')->group( function (){
+
+    Route::get('/login',function (){
+        return view('auth.login');
+    })->name('login');
+
+    Route::group( ['middleware' => ['auth'] ], function (){
+
+            Route::resource('/customer','CustomerController@index');
+    });
+
+});
 
 

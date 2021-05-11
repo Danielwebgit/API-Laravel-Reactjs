@@ -1,5 +1,5 @@
 <?php
-namespace Domain\Task\TataTransferObject;
+namespace Domain\Task\DadaTransferObject;
 
 
 use App\Web\Task\Requests\TaskRequest;

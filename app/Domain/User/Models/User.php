@@ -1,6 +1,7 @@
 <?php
 namespace Domain\User\Models;
 
+use Domain\Card\Models\Card;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Tymon\JWTAuth\Contracts\JWTSubject;
@@ -8,8 +9,6 @@ use Tymon\JWTAuth\Contracts\JWTSubject;
 class User extends Authenticatable implements JWTSubject
 {
     use Notifiable;
-
-    const PAGAR_ME_KY="ak_test_bvNaSQPcmZ1Z7N75AscO3d3T9JzpCj";
 
     /**
      * The attributes that are mass assignable.
@@ -55,5 +54,10 @@ class User extends Authenticatable implements JWTSubject
     public function getJWTCustomClaims()
     {
         return [];
+    }
+
+    public function card()
+    {
+        return $this->hasMany(Card::class,'user_id','id');
     }
 }
