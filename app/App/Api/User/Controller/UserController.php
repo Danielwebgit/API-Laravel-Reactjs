@@ -20,6 +20,7 @@ class UserController extends Controller
 
         $dataForm=$request->all();
         User::create($dataForm);
+        //nossaaaa agora que vi isso kkk
 
     }
 

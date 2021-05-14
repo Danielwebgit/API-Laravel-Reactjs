@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4597fd99-357c-4f3c-ae8b-07c43180f52d" name="Default Changelist" comment="alterado a primeira versão">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ccf141cf-5359-4f4a-8319-30e0aee7962c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ddd-laravel7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ddd-laravel7.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App/Api/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/App/Api/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/App/Api/User/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/App/Api/User/Controller/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/App/Core/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/App/Core/Http/Controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Domain/publicacoes/models/publicacoes_fila_2020_08_02.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Domain/publicacoes/models/publicacoes_fila_2020_08_02.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console.sql" beforeDir="false" afterPath="$PROJECT_DIR$/console.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/formLogin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/formLogin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/CustomerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/CustomerTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/App/Api/User/Controller/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="169">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
               <folding>
                 <element signature="e#42#83#0#PHP" expanded="true" />
               </folding>
@@ -395,11 +376,6 @@
               <item name="api-laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="api-laravel" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="api-laravel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api-laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -510,7 +486,7 @@
       <workItem from="1620937622450" duration="3024000" />
       <workItem from="1620962663859" duration="2533000" />
       <workItem from="1620996896363" duration="566000" />
-      <workItem from="1621006631975" duration="4313000" />
+      <workItem from="1621006631975" duration="4800000" />
     </task>
     <task id="LOCAL-00001" summary="alterado a primeira versão">
       <created>1619630542904</created>
@@ -551,7 +527,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174492000" />
+    <option name="totallyTimeSpent" value="174979000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -564,6 +540,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49562684" visible="true" weight="0.21212122" />
       <window_info id="Structure" order="1" sideWeight="0.5043732" side_tool="true" weight="0.29166666" />
@@ -580,7 +557,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.8595041" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.2644628" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49924242" visible="true" weight="0.75371903" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49924242" visible="true" weight="0.4909091" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.34876034" />
       <window_info anchor="bottom" id="SQL Generator" order="13" weight="0.27438018" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -961,8 +938,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/App/Api/User/Controller/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="169">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding>
             <element signature="e#42#83#0#PHP" expanded="true" />
           </folding>
