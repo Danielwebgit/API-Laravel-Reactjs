@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,7 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Painel de admistração</h1>
-<a href="{{route('admin.logout')}}">Logout</a>
+<h1>Bora</h1>
 </body>
 </html>

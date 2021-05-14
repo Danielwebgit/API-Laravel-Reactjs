@@ -4,6 +4,8 @@ namespace App\Core\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use phpDocumentor\Reflection\Types\Object_;
+
 class AuthController extends Controller
 {
 
@@ -24,7 +26,23 @@ class AuthController extends Controller
 
     public function login(Request $request)
     {
-        dd($request->all());
+
+        $credentials=[
+            'email' => $request->email,
+            'password' => $request->password
+        ];
+
+        if (Auth::attempt($credentials)){
+            return redirect()->route('admin');
+        }
+        return redirect()->back()->withInput()->withErrors('Os dados informados não conferem');
+
+    }
+
+    public function logout()
+    {
+        Auth::logout();
+        return redirect()->route('admin');
     }
 
 

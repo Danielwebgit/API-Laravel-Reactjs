@@ -22,7 +22,8 @@ Route::get('/login',function (){
 
 Route::namespace('\App\Api\User\Controller')->group(function (){
 
-    Route::get('/AgoraSim','UserController@index');
+    Route::get('/users','UserController@index');
+    Route::post('/addusers','UserController@store')->name('store_user');
 
 });
 
